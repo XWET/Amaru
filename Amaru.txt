@@ -1,7 +1,4 @@
-warp://813d7KZt-MP2zV094-M39IxF05/?ifp=5-10
-warp://Mdy180R4-R16p8oB7-35Ccf87B/?ifp=5-10
-warp://ul8q3o65-3l6a95MZ-7s6V0ug8/?ifp=5-10
-warp://3n1VY4x2-F7359pcg-hO914jl5/?ifp=5-10
+
 warp://6wJ471In-I862ak0S-3le26TS8/?ifp=5-10
 warp://8hfyZ207-Ss64W85d-63Sw10fp/?ifp=5-10
 warp://162.159.195.171:8854/?ifp=5-10
