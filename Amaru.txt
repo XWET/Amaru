@@ -1,4 +1,3 @@
-Adnan, [2/29/2024 8:49 PM]
 {
   "log": {
     "level": "warn",
@@ -43,16 +42,12 @@ Adnan, [2/29/2024 8:49 PM]
     "final": "dns-remote",
     "static_ips": {
       "sky.rethinkdns.com": [
-        "188.114.97.3",
         "188.114.96.3",
-        "2a06:98c1:3121::3",
-        "2a06:98c1:3120::3",
-        "104.18.203.232",
+        "188.114.97.3",
         "104.18.202.232",
-        "172.64.172.4",
-        "172.64.173.4",
-        "2606:4700:e4::ac40:ad04",
-        "2606:4700:e4::ac40:ac04"
+        "104.18.203.232",
+        "172.64.111.10",
+        "172.64.110.10"
       ]
     },
     "independent_cache": true
@@ -98,7 +93,9 @@ Adnan, [2/29/2024 8:49 PM]
         "WARP § 3",
         "WARP § 4",
         "WARP § 5",
-        "WARP § 6"
+        "WARP § 6",
+        "WARP § 7",
+        "WARP § 8"
       ],
       "default": "auto"
     },
@@ -112,40 +109,23 @@ Adnan, [2/29/2024 8:49 PM]
         "WARP § 3",
         "WARP § 4",
         "WARP § 5",
-        "WARP § 6"
+        "WARP § 6",
+        "WARP § 7",
+        "WARP § 8"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "1m0s"
     },
     {
       "type": "wireguard",
-      "tag": "Hiddify Warp ✅",
-      "detour": "direct",
-      "local_address": [
-        "172.16.0.2/24",
-        "2606:4700:110:8e03:fe73:d603:5e0f:c8de/128"
-      ],
-      "private_key": "8NAdHZepK6BeZH9dh1OPNQWBkLq3Ev69HZl24lZsl2k=",
-      "server": "188.114.98.51",
-      "server_port": 1387,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "AAAA",
-      "mtu": 1280,
-      "fake_packets": "5-10",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "20-200"
-    },
-    {
-      "type": "wireguard",
       "tag": "WARP § 0",
-      "detour": "Hiddify Warp ✅",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8cc1:4da8:dbc9:e87a:673e/128"
+        "2606:4700:110:8aa2:7cda:c9bd:8bba:e5cf/128"
       ],
-      "private_key": "QKsQcXTXA/rOUkpJHnrug46XxBEz0NvDLAmqc+RwOkQ=",
-      "server": "188.114.97.228",
-      "server_port": 3476,
+      "private_key": "uHfeRaga2vHRefCiuZrPfHkYeIWIUb0EkaPgfvxx/0g=",
+      "server": "162.159.195.102",
+      "server_port": 955,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "AAAA",
       "mtu": 1280,
@@ -156,14 +136,13 @@ Adnan, [2/29/2024 8:49 PM]
     {
       "type": "wireguard",
       "tag": "WARP § 1",
-      "detour": "Hiddify Warp ✅",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8e43:4834:62b:86be:e61/128"
+        "2606:4700:110:8293:72e:516b:2426:79ce/128"
       ],
-"private_key": "EO7og1+X6rUbgRa3tDY6D9FIe1Bk4v7mNtTcoGCCc0g=",
-      "server": "162.159.193.134",
-      "server_port": 3476,
+      "private_key": "YC/HIc4ax/JYBM780/re2zQZITw9aKyez4j9axVGsmA=",
+      "server": "162.159.193.195",
+      "server_port": 8319,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "AAAA",
       "mtu": 1280,
@@ -174,14 +153,13 @@ Adnan, [2/29/2024 8:49 PM]
     {
       "type": "wireguard",
       "tag": "WARP § 2",
-      "detour": "Hiddify Warp ✅",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:82fd:9fdf:cc23:8edf:dac3/128"
+        "2606:4700:110:8db4:c91a:ad8:8910:9f7e/128"
       ],
-      "private_key": "EC+dPiYrVc2B2mtqW088kxEJ/1aFV9BWtw3vYTTYB3A=",
-      "server": "188.114.98.216",
-      "server_port": 5279,
+      "private_key": "aKbA+0MK6pri7BIO2pKFq3B8F3iDXhg+pkphNdkj+mo=",
+      "server": "162.159.195.14",
+      "server_port": 1010,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "AAAA",
       "mtu": 1280,
@@ -192,14 +170,13 @@ Adnan, [2/29/2024 8:49 PM]
     {
       "type": "wireguard",
       "tag": "WARP § 3",
-      "detour": "Hiddify Warp ✅",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:804b:582b:a638:83b3:de0b/128"
+        "2606:4700:110:8223:4b4f:4647:c6a0:4bc4/128"
       ],
-      "private_key": "qLWBUn11kUCZjOJYW/+wCObXAA7YYJPV77gfmYr9tVo=",
-      "server": "162.159.193.143",
-      "server_port": 894,
+      "private_key": "KLCbigvE0f++knOi6Hh23Na6xI6X82XHWGFy2wpTxHM=",
+      "server": "162.159.195.26",
+      "server_port": 968,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "AAAA",
       "mtu": 1280,
@@ -210,32 +187,30 @@ Adnan, [2/29/2024 8:49 PM]
     {
       "type": "wireguard",
       "tag": "WARP § 4",
-      "detour": "Hiddify Warp ✅",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8699:79bc:d241:4f4c:b39b/128"
+        "2606:4700:110:82ef:2913:14af:7a0c:3966/128"
       ],
-      "private_key": "SKywyo+/eGiR+L4tVoZXNNohrnJybg1bw6jK/RPA8Wk=",
-      "server": "188.114.98.227",
-      "server_port": 878,
+      "private_key": "qJsdWcKqZw/qOPHMzVpDgCCpFEpf3/cvBQLpF9gr1E0=",
+      "server": "162.159.195.79",
+      "server_port": 1018,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "AAAA",
       "mtu": 1280,
-      "fake_packets": "5-10",
+      "fake_packets": "5-10/?ifp=5-10",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "20-250"
     },
     {
       "type": "wireguard",
       "tag": "WARP § 5",
-      "detour": "Hiddify Warp ✅",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8d23:384f:ebd6:49ef:3844/128"
+        "2606:4700:110:8826:6530:4804:f226:e8df/128"
       ],
-      "private_key": "sD9EKs6xp1yT6KV5WDOw0/eWe5rnN4JYWWsVIZKHEn0=",
-      "server": "188.114.96.137",
-      "server_port": 908,
+      "private_key": "6KYk+i6x2V/vlvs238e8qVe/ApGhzIHf/IJ7P0BHMVY=",
+      "server": "188.114.98.45",
+      "server_port": 968,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "AAAA",
       "mtu": 1280,
@@ -246,14 +221,47 @@ Adnan, [2/29/2024 8:49 PM]
     {
       "type": "wireguard",
       "tag": "WARP § 6",
-      "detour": "Hiddify Warp ✅",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8803:50bc:7fbf:97d9:20fd/128"
+        "2606:4700:110:87e8:105a:7583:7aee:610a/128"
       ],
-      "private_key": "IL8dLtIZh5zL4FH9Z3CCynInQVVWsoEWmcFxEp62Cn8=",
+      "private_key": "GOD2ST1w22kokNq/Bfst/COlEGZ5FuIXlE1WeTO6Xn0=",
       "server": "162.159.195.171",
       "server_port": 8854,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "AAAA",
+      "mtu": 1280,
+      "fake_packets": "5-10",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WARP § 7",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8e5f:53a7:9efc:f79b:95ff/128"
+      ],
+      "private_key": "aHjNI6QlxPlf2VjfNTJXp5bk96XhwOyT5vaxFVRaH3g=",
+      "server": "188.114.97.75",
+      "server_port": 8319,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "AAAA",
+      "mtu": 1280,
+      "fake_packets": "5-10",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WARP § 8",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:83ec:41fd:63d2:a616:b650/128"
+      ],
+      "private_key": "WAROAyX7grbWzGueNkD6qKHFK4sjhbvlj3iGoK90lnY=",
+      "server": "188.114.96.48",
+      "server_port": 1070,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "AAAA",
       "mtu": 1280,
@@ -289,15 +297,15 @@ Adnan, [2/29/2024 8:49 PM]
   ],
   "route": {
     "geoip": {
-      "path": "geo-assets/sagernet-sing-geoip-geoip.db"
+      "path": "geo-assets\\sagernet-sing-geoip-geoip.db"
     },
     "geosite": {
-      "path": "geo-assets/sagernet-sing-geosite-geosite.db"
+      "path": "geo-assets\\sagernet-sing-geosite-geosite.db"
     },
     "rules": [
       {
         "inbound": "dns-in",
-"outbound": "dns-out"
+        "outbound": "dns-out"
       },
       {
         "port": 53,
